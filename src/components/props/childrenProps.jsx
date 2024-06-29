@@ -1,3 +1,5 @@
+import React from 'react';
+
 const ParentComponent = (props) => {
         return (
             <div> {/* This is necessary, we can only return one HTML element */}
