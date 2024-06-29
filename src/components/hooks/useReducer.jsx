@@ -32,14 +32,6 @@ function FavoriteMovies() {
 
   return (
     <>
-      <div className="movies">
-        {movies.map((movie, index) => ( // movies.map - movies comes from FavoriteMovies() const [movies, dispatch] || index - .map comes with two statements always (name and index)
-          <div key={index} className="movie">
-            { <span>{movie.name}</span> /* Shows the value that was inputed corresponds to: return [...state, { name: action.movie }]; */}
-            <button onClick={() => handleRemoveClick(index)}>Remove</button>
-          </div>
-        ))}
-      </div>
       <div className="add-movie">
         <input
           type="text"
@@ -48,6 +40,14 @@ function FavoriteMovies() {
           placeholder="Movie Name"
         />
         <button onClick={handleAddClick}>Add movie</button>
+      </div>
+      <div className="movies">
+        {movies.map((movie, index) => ( //index - .map comes with two statements always (name and index)
+          <div key={index} className="movie">
+            { <span>{movie.name}</span> /* Shows the value that was inputed corresponds to: return [...state, { name: action.movie }]; || movie is because of the map name and we use .name so it would whow the name */}
+            <button onClick={() => handleRemoveClick(index)}>Remove</button>
+          </div>
+        ))}
       </div>
     </>
   );
