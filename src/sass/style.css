@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bulb-off,
+.bulb-on {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  display: inline-block;
+}
+
+.bulb-off:last-of-type,
+.bulb-on:last-of-type {
+  margin-right: 100%;
+}
+
+.bulb-off {
+  background-image: url("/src/components/assets/images/bulb-off.svg");
+}
+
+.bulb-on {
+  background-image: url("/src/components/assets/images/bulb-on.svg");
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */

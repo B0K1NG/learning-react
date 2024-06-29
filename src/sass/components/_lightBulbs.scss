@@ -1,0 +1,20 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.bulb-off,
+.bulb-on {
+    @include bulb-common;
+}
+
+.bulb-off:last-of-type,
+.bulb-on:last-of-type {
+    margin-right: 100%;
+}
+
+.bulb-off {
+    background-image: $bulb-off-image;
+}
+
+.bulb-on {
+    background-image: $bulb-on-image;
+}

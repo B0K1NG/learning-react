@@ -1,0 +1,8 @@
+// LightBulb:
+@mixin bulb-common {
+    width: $bulb-size;
+    height: $bulb-size;
+    background-repeat: no-repeat;
+    background-size: $bulb-size;
+    display: inline-block;
+}
