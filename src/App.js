@@ -3,6 +3,7 @@ import Counter from './components/states/setState.jsx';
 import Bulbs from './components/hooks/useState.jsx';
 import FavoriteMovies from './components/hooks/useReducer.jsx';
 import ParentComponent from './components/props/childrenClassProps.jsx';
+import Loop from './components/loop/loop.jsx';
 import './App.css';
 import './sass/style.css';
 
@@ -18,6 +19,7 @@ class App extends Component {
           <div>Hello</div>
           <button onClick={() => alert('Hello')}>Click me!</button>
         </ParentComponent>
+        <Loop />
       </div>
     );
   }

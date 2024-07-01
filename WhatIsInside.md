@@ -251,11 +251,31 @@
 2.  React.useEffect() Hook:
     Code example: components -> hooks -> useEffect.jsx
 
+    useEffect() — the hook that manages side-effects in functional React components.
+
+    2.1 Side-Effects
+    2.1.1
+
+    2.2 useEffect() arguments
+    2.3 Component lifecycle
+    2.4 Side-Effect Cleanup
+    2.5 useEffect() in practice
+
 ---
 
 ---
 
 ### 6. MAP
+
+    When to use map - When we have a lot of data we want to display.
+    Map gives the results of the array.
+    Using maps we can get an error that each child needs to have a unique "key" prop. - to get rid of this assign a key example 3rd example in src -> components -> loop -> loop.jsx
+    KEY ALWAYS HAVE TO BE AT THE TOP LEVEL OF COMPONENT WHENEVER WE ARE DISPLAYING IT.
+
+    There are 3 ways of looping: All of the ways are listed from top to bottom in the code example: src -> components -> loop -> loop.jsx
+    1. Having only the name
+    2. Having the name and age and using destructuring
+    3. Importing from a different file -> employee.jsx
 
 ---
 
