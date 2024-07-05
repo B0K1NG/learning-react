@@ -301,8 +301,28 @@
 
 ### 8. CONDITIONAL RENDERING
 
----
+    Used to hide or show details in HTML.
 
----
+    1. if/else - HARDEST TO DO
+    Code example: components -> conditionalRendering -> if/else.jsx
 
-    Code example: components -> conditionalRendering -> conditionalRendering.jsx
+    2. Element variables - SIMPLER THAN THE FIRST ONE
+    Code example: components -> conditionalRendering -> elementVariables.jsx
+
+    3.Ternary conditional rendering - USED MOST OF THE TIME
+    Code example: components -> conditionalRendering -> ternary.jsx
+
+    4.Short circuit operator - USED FOR SPECIFFIC CASES
+    Code example: components -> conditionalRendering -> shortCircuit.jsx
+
+### 9. Destructuring props and state
+
+    Destructor is used to make props and state into distinct variables
+
+    1. Destructuring functional component (2 ways):
+        1.1 In the parameter: code example -> Line: 17
+        1.2 In the body: code example -> Line: 31
+    Code example: components -> Destructuring -> destructorFunctional.jsx
+
+    2. Destructuring class component: code example -> Line: 1
+    Code example: components -> Destructuring -> destructorClass.jsx
